@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <include layout="@layout/toolbar"/>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_gravity="center_horizontal"
+      android:orientation="vertical"
+      android:layout_marginTop="?attr/actionBarSize"
+      >
+
+    <TextView
+        style="@style/PortfolioTitle"
+        android:text="@string/my_nanodegree_apps"
+        android:onClick="portfolioButtonClicked"
+        />
+
+    <Button
+        android:id="@+id/button_movies"
+        style="@style/PortfolioButton"
+        android:text="@string/popular_movies"
+        android:onClick="portfolioButtonClicked"
+        />
+
+    <Button
+        android:id="@+id/button_stock"
+        style="@style/PortfolioButton"
+        android:text="@string/stock_hawk"
+        android:onClick="portfolioButtonClicked"
+        />
+
+    <Button
+        android:id="@+id/button_build_bigger"
+        style="@style/PortfolioButton"
+        android:text="@string/build_it_bigger"
+        android:onClick="portfolioButtonClicked"
+        />
+
+    <Button
+        android:id="@+id/button_material"
+        style="@style/PortfolioButton"
+        android:text="@string/make_your_app_material"
+        android:onClick="portfolioButtonClicked"
+        />
+
+    <Button
+        android:id="@+id/button_ubiquitous"
+        style="@style/PortfolioButton"
+        android:text="@string/go_ubiquitous"
+        android:onClick="portfolioButtonClicked"
+        />
+
+    <Button
+        android:id="@+id/button_capstone"
+        style="@style/PortfolioButton"
+        android:text="@string/capstone"
+        android:onClick="portfolioButtonClicked"
+        />
+
+  </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
+
+
